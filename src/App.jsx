@@ -24,8 +24,8 @@ const App = () => {
     <div className="">
       <Header />
       <About />
-      <Skills />
       <Projects />
+      <Skills />
       <Contact />
     </div>
   );

@@ -5,13 +5,13 @@ const projects = [
   {
     title: 'Project 1',
     description: 'My First Project',
-    image: 'https://via.placeholder.com/350x200',
+    image: 'https://via.placeholder.com/1920x1080/',
     repo: 'https://github.com/',
   },
   {
     title: 'Project 2',
     description: 'My Second Project',
-    image: 'https://via.placeholder.com/350x200',
+    image: 'https://via.placeholder.com/1920x1080/',
     repo: 'https://github.com/',
   },
 ];
@@ -30,7 +30,7 @@ const Projects = () => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-40 object-cover mb-4 rounded-lg"
+        className="w-full h-80 object-cover mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2">{project.title}</h3>
       <p className="mb-4">{project.description}</p>

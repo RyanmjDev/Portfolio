@@ -8,7 +8,7 @@ const About = () => {
         <h2 className="text-3xl font-bold mb-6">
             About <span className='text-blue-600'>Me</span>
           </h2>
-          <div className="bg-white p-8 rounded-lg shadow-lg">
+          <div className="bg-white p-16 rounded-lg shadow-lg">
             <p className="text-lg text-gray-800 leading-relaxed">
             I have cultivated a strong passion for creating elegant, responsive websites using modern technologies as a self taught developer. 
             I pride myself on staying current with the latest trends in web development, ensuring that my projects consistently exceed expectations.
