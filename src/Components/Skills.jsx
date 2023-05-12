@@ -25,7 +25,7 @@ const skills = [
   { name: 'Bootstrap', icon: bootstrapIcon},
   { name: 'Responsive Design', icon: responsiveIcon },
   { name: 'Version Control (Git)', icon: githubIcon },
-  { name: 'Vistual Studio Code', icon: vscodeIcon },
+  { name: 'Visual Studio Code', icon: vscodeIcon },
 ];
 const Skills = () => {
   return (
