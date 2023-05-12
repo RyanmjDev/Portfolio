@@ -24,7 +24,7 @@ const skills = [
   { name: 'Tailwind CSS', icon: tailwindIcon},
   { name: 'Bootstrap', icon: bootstrapIcon},
   { name: 'Responsive Design', icon: responsiveIcon },
-  { name: 'Version Control (Git)', icon: githubIcon },
+  { name: 'Github', icon: githubIcon },
   { name: 'Visual Studio Code', icon: vscodeIcon },
 ];
 const Skills = () => {
