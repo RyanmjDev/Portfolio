@@ -1,12 +1,13 @@
 import React from 'react';
+import Tasklister from '../assets/Projects/Tasklister.svg';
 
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'My First Project',
-    image: 'https://via.placeholder.com/1920x1080/',
-    repo: 'https://github.com/',
+    title: 'Tasklister',
+    image: Tasklister,
+    repo: 'https://github.com/RyanmjDev/tasklister', 
+    description: 'This application is a task management system built using the MERN stack. The app utilizes Tailwind CSS for styling and Axios for making HTTP requests to the RESTful API built with Node.js and Express.js on the server side. State management in the app is handled using React hooks, and it also includes features for user authentication using JSON Web Tokens stored in browser cookies',
   },
   {
     title: 'Project 2',
@@ -30,7 +31,7 @@ const Projects = () => {
       <img
         src={project.image}
         alt={project.title}
-        className="w-full h-80 object-cover mb-4 rounded-lg"
+        className="w-full h-80  mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2">{project.title}</h3>
       <p className="mb-4">{project.description}</p>
@@ -38,7 +39,7 @@ const Projects = () => {
         href={project.repo}
         target="_blank"
         rel="noreferrer"
-        className="text-accent hover:underline"
+        className="text-accent font-bold hover:underline"
       >
         View Repository
       </a>

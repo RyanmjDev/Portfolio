@@ -11,12 +11,13 @@ import expressIcon from '../assets/expressjs-icon.svg';
 import bootstrapIcon from '../assets/bootstrap.svg';
 import responsiveIcon from '../assets/responsive.svg';
 import githubIcon from '../assets/github.svg';
-import vscodeIcon from '../assets/vscode.svg';
+import typescriptIcon from '../assets/typescript.svg';
 
 const skills = [
   { name: 'HTML', icon: htmlIcon },
   { name: 'CSS', icon: cssIcon },
   { name: 'JavaScript', icon: jsIcon},
+  { name: 'TypeScript', icon: typescriptIcon },
   { name: 'React', icon: reactIcon},
   { name: 'Node.js', icon: nodeJSIcon},
   { name: 'MongoDB', icon: mongoIcon},
@@ -25,7 +26,6 @@ const skills = [
   { name: 'Bootstrap', icon: bootstrapIcon},
   { name: 'Responsive Design', icon: responsiveIcon },
   { name: 'Github', icon: githubIcon },
-  { name: 'Visual Studio Code', icon: vscodeIcon },
 ];
 const Skills = () => {
   return (
