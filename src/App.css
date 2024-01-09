@@ -1,4 +1,11 @@
-/*Header*/
+body {
+  background-color: #001e4c;
+  color: white;
+}
+
+
+
+/*Header animation*/
 @keyframes gradientAnimation {
   0% {
     background-position: 0% 50%;
