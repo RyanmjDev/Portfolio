@@ -14,6 +14,7 @@ const Header = () => {
             alt="Ryan Johnson"
             className="w-full h-full object-cover"
           />
+          
         </div>
         <div className="w-full sm:w-1/2 flex flex-col items-center sm:items-start">
           <span className="text-xl sm:text-center mb-2">Hello there, I'm </span>
@@ -24,9 +25,12 @@ const Header = () => {
           <button className="bg-blue-600 py-2 px-8  text-white font-bold hover:shadow-lg mt-4">
             View Projects
           </button>
+          
         </div>
       </div>
     </div>
+
+
   </section>
   );
 };
