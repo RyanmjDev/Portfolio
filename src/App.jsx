@@ -4,10 +4,11 @@ import About from './Components/About';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-
+import Divider from './Components/Divider';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import './App.css';
+
 
 
 
@@ -23,7 +24,9 @@ const App = () => {
   return ( 
     <div className="">
       <Header />
+      <Divider/>
       <About />
+      <Divider/>
       <Projects />
       <Skills />
       <Contact />

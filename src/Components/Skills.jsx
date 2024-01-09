@@ -29,17 +29,18 @@ const skills = [
 ];
 const Skills = () => {
   return (
-    <section id="projects" className="py-12 bg-gray-100">
+    <section id="projects" className="py-12">
     <div className="container mx-auto px-4" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
       <h2 className="text-3xl font-bold mb-6">
             Skills
         </h2>
-
-        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2 ">
           {skills.map((skill, index) => (
+
             <li
               key={index}
-              className="p-6 text-center border-2 border-transparent rounded-lg  transition-all duration-300 relative overflow-hidden hover:scale-110"
+              className="gradient-blue border-card-blue border-2 border-transparent
+               p-6 text-center  rounded-lg  transition-all duration-300 relative overflow-hidden hover:scale-105 "
             >
               <img src={skill.icon} alt={skill.name} className="w-16 h-16 mb-4 mx-auto" />
               <h3 className="text-xl font-semibold">{skill.name}</h3>

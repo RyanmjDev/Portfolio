@@ -33,10 +33,17 @@ body {
 
 .divider {
   border-bottom-width: 1px;
-  border-bottom-color: #d9d9d9;
+  border-bottom-color: #274268;
   border-bottom-style: solid;
+  margin-left: 16rem;
+  margin-right: 16rem;
 }
 
+
+.gradient-blue {
+  background: linear-gradient(to bottom, #1c3c78  0%, #123268 100%);
+
+}
 
 /*About */
 .about-image {

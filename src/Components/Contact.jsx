@@ -1,6 +1,6 @@
 import React from 'react';
-import emailIcon from '../assets/email.svg';
-import githubIcon from '../assets/github.svg';
+import EmailIcon from '../assets/email.svg';
+import GithubIcon from '../assets/github.svg';
 
 const contacts = [
   { name: 'Email', link: 'mailto:Ryanmj.dev@gmail', icon: emailIcon },
@@ -9,34 +9,26 @@ const contacts = [
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-12 bg-gray-100">
-      <div className="container mx-auto px-4" >
-        <h2 className="text-3xl font-bold mb-6">Contact</h2>
-        <p className="mb-6 text-lg text-gray-800 leading-relaxed">
-          I'm currently open to new opportunities and would love to hear from
-          you. Feel free to reach out through any of the platforms below.
-        </p>
-        <div className="flex space-x-4">
-          {contacts.map((contact) => (
-            <a
-              key={contact.name}
-              href={contact.link}
-              target="_blank"
-              rel="noreferrer"
-              className="text-accent hover:underline flex items-center"
-            >
-              <img
-                src={contact.icon}
-                alt={contact.name}
-                className="w-8 h-8 mr-2"
-              />
-             {contact.name}
-            </a>
-          ))}
+    <section className=" text-white mt-40">
+      <div className="container mx-auto px-6 py-10 flex justify-between items-center">
+        <h2 className="text-4xl font-bold">Let's Connect</h2>
+        <div className="flex items-center">
+    
+          <span className="ml-3"> <EmailIcon/> ryanmj.dev@gmail.com</span>
+          <div className="border-l border-gray-400 h-6 mx-6" />
+        
+          <span className="ml-3">github.com/ryanmjdev</span>
+        </div>
+        <div className="hidden sm:flex items-center">
+  
+        </div>
+
+        <div className="flex items-center">
+          <div className="border-l border-gray-400 h-6 mx-6 sm:hidden" />
+
         </div>
       </div>
     </section>
   );
 };
-
 export default Contact;
