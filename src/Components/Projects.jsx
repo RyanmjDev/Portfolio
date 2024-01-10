@@ -50,7 +50,7 @@ const Projects = () => {
       <p className="mb-2 text-left">{project.description}</p>
       <Divider />
 
-      <div className="flex flex-wrap justify-between gap-2">
+      <div className="flex justify-between gap-2">
               <a
                 href={project.repo}
                 target="_blank"
