@@ -2,9 +2,9 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-fixed bg-center bg-cover flex justify-center items-center"  >
-      <div className="container mx-auto px-4" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
-        <div className=" lg:px-52 mx-auto"> 
+    <section id="about" className="py-12 bg-fixed bg-center bg-cover flex justify-center items-center"  >
+      <div className="container mx-auto px-4 w-full 2xl:w-2/3" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+        <div className=" lg:px-52 mx-auto text-center"> 
         <h2 className="text-4xl font-bold mb-8">
             A Little About Me 
           </h2>

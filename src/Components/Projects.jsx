@@ -2,6 +2,7 @@ import React from 'react';
 import tasklister from '../assets/Projects/Tasklister.png';
 import barker from '../assets/Projects/Barker.png';
 import kaiwakun from '../assets/Projects/Kaiwakun.png';
+import Divider from './Divider';
 
 
 const projects = [
@@ -21,28 +22,29 @@ const projects = [
     title: 'Tasklister',
     image: tasklister,
     repo: 'https://github.com/RyanmjDev/tasklister', 
-    description: 'This application is a task management system built using the MERN stack. The app utilizes Tailwind CSS for styling and Axios for making HTTP requests to the RESTful API built with Node.js and Express.js on the server side. State management in the app is handled using React hooks, and it also includes features for user authentication using JSON Web Tokens stored in browser cookies',
+    description: 'This application is a task management system built using the MERN stack. The app utilizes Tailwind CSS for styling and Axios for making HTTP requests to the RESTful API built with Node.js and Express.js on the server side.',
   },
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-12">
-      <div className="container mx-auto px-4" data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000">
-        <h2 className="text-3xl font-bold mb-6">Projects</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+    <section id="projects" className="py-24 text-center">
+      <div className="container w-full md:w-1/2 mx-auto px-4" data-aos="fade-up"  data-aos-once="false" data-aos-duration="1000">
+        <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
+        <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 place-items-center">
   {projects.map((project, index) => (
     <div
       key={index}
-      className=" border-2 border-accent border-card-blue p-4 rounded-lg shadow-lg  bg-accent-blue "
+      className=" border-2 border-accent border-card-blue gradient-blue  p-4 rounded-lg shadow-lg
+        max-w-sm  glow transform transition-transform duration-500 "
     >
       <img
         src={project.image}
         alt={project.title}
-        className="w-full  mb-4 rounded-lg"
+        className="w-full mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-      <p className="mb-4">{project.description}</p>
+      <p className="mb-2 text-left">{project.description}</p>
       <a
         href={project.repo}
         target="_blank"

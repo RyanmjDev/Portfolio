@@ -22,11 +22,9 @@ const App = () => {
   }, []);
 
   return ( 
-    <div className="">
+    <div >
       <Header />
-      <Divider/>
       <About />
-      <Divider/>
       <Projects />
       <Skills />
       <Contact />

@@ -22,28 +22,28 @@ const skills = [
   { name: 'Node.js', icon: nodeJSIcon},
   { name: 'MongoDB', icon: mongoIcon},
   { name: 'Express', icon: expressIcon},
-  { name: 'Tailwind CSS', icon: tailwindIcon},
+  { name: 'Tailwind', icon: tailwindIcon},
   { name: 'Bootstrap', icon: bootstrapIcon},
-  { name: 'Responsive Design', icon: responsiveIcon },
+  { name: 'Responsive', icon: responsiveIcon },
   { name: 'Github', icon: githubIcon },
 ];
 const Skills = () => {
   return (
-    <section id="projects" className="py-12">
-    <div className="container mx-auto px-4" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
-      <h2 className="text-3xl font-bold mb-6">
+    <section id="projects" className="py-24">
+    <div className="container w-2/3 lg:w-1/2 mx-auto px-4" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+      <h2 className="text-4xl font-bold mb-10 text-center">
             Skills
         </h2>
-        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-2 ">
+        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4  place-items-center">
           {skills.map((skill, index) => (
 
             <li
               key={index}
-              className="gradient-blue border-card-blue border-2 border-transparent
-               p-6 text-center  rounded-lg  transition-all duration-300 relative overflow-hidden hover:scale-105 "
-            >
-              <img src={skill.icon} alt={skill.name} className="w-16 h-16 mb-4 mx-auto" />
-              <h3 className="text-xl font-semibold">{skill.name}</h3>
+              className="border-card-blue gradient-blue  border-2 border-solid w-32 h-32
+               p-6 text-center  rounded-lg  transition-all duration-300 relative overflow-hidden hover:scale-105 ">
+
+              <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-4 mx-auto" />
+              <h3 className=" font-semibold text-center">{skill.name}</h3>
             </li>
           ))}
         </ul>
