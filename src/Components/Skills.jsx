@@ -34,7 +34,7 @@ const Skills = () => {
       <h2 className="text-4xl font-bold mb-10 text-center">
             Skills
         </h2>
-        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4  place-items-center">
+        <ul className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-20 lg:gap-6  place-items-center">
           {skills.map((skill, index) => (
 
             <li

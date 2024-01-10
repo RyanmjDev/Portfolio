@@ -12,7 +12,7 @@ const Header = () => {
           <img
             src={MainIllustration}
             alt="Ryan Johnson"
-            className="w-full h-full object-cover"
+            className=" w-full h-full object-cover"
           />
           
         </div>

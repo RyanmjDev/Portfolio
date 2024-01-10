@@ -9,25 +9,19 @@ import GithubIcon from '../assets/github.svg';
 
 const Contact = () => {
   return (
-    <section className=" text-white py-12" >
-      <div className="container mx-auto px-6 py-10 flex justify-between items-center">
-      <h2 className="text-4xl font-bold text-center">Let's Connect</h2>
-
-        <div className="flex items-center">
-    
-          <span className="ml-3"> ryanmj.dev@gmail.com</span>
+    <section className=" text-white py-12 " >
+    <div className="container w-2/3 lg:w-1/2 mx-auto px-4 " data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+      <h2 className="text-4xl font-bold mb-10 text-center">
+            Let's Connect
+        </h2>
+        <div className='flex items-center justify-center'>
+          ryanmjdev
+          
           <div className="border-l border-gray-400 h-6 mx-6" />
+          github 
+          </div>
+
         
-          <span className="ml-3">github.com/ryanmjdev</span>
-        </div>
-        <div className="hidden sm:flex items-center">
-  
-        </div>
-
-        <div className="flex items-center">
-          <div className="border-l border-gray-400 h-6 mx-6 sm:hidden" />
-
-        </div>
       </div>
     </section>
   );
