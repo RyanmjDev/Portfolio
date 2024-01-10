@@ -55,7 +55,7 @@ const Projects = () => {
                 href={project.repo}
                 target="_blank"
                 rel="noreferrer"
-                className="text-accent border border-steel-blue border-accent rounded-full w-36  py-2 "
+                className="text-accent border border-steel-blue border-accent rounded-full w-32  py-2 "
               >
                 Demo
               </a>
@@ -64,7 +64,7 @@ const Projects = () => {
                 href={project.repo}
                 target="_blank"
                 rel="noreferrer"
-                className="text-accent border border-steel-blue border-accent rounded-full  w-36  py-2  "
+                className="text-accent border border-steel-blue border-accent rounded-full  w-32  py-2  "
               >
                 Repository
               </a>
