@@ -3,7 +3,7 @@ import React from 'react'
 
 const Divider = () => {
   return (
-    <div className="divider"></div>
+    <div className="divider mb-4"></div>
   )
 }
 
