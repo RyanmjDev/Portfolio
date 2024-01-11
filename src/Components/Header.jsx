@@ -22,7 +22,7 @@ const Header = () => {
             A <span className=" font-bold"> Front-End Web Developer</span> with a passion for crafting engaging applications and immersive experiences on the web.
           </p>
           <button className="bg-blue-600 hover:bg-blue-800 py-2 px-8  text-white font-bold hover:shadow-lg mt-4 ">
-            View Projects
+            Resumé
           </button>
           
         </div>
