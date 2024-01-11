@@ -30,7 +30,7 @@ const projects = [
 ];
 const Projects = () => {
   return (
-    <section id="projects" className="py-24 text-center">
+    <section id="projects" className="py-12 text-center">
       <div className="container mx-auto max-w-7xl px-4 lg:px-12" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
         <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 place-items-stretch justify-items-center">

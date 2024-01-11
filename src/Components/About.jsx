@@ -13,7 +13,7 @@ const About = () => {
             From a young age, I was deeply fascinated by both playing and developing video games. This early interest led me to learn C++ at the age of 14,
             a stepping stone that ignited my journey into coding. Since then I have cultivated a strong passion for creating elegant, responsive websites using modern technologies as a self taught developer. 
             I pride myself on staying current with the latest trends in web development, ensuring that my projects consistently exceed expectations.
-            When I'm not coding, I love to explore new challenges and expanding my skillset to continue delivering exceptional results. 
+            When I'm not coding, I love to explore new challenges and expand my skillset to continue delivering exceptional results. 
             I'm always looking to take my skills to the next level!
             </p>
           </div>

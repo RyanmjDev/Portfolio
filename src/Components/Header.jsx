@@ -11,11 +11,11 @@ const Header = () => {
           <img
             src={MainIllustration}
             alt="Ryan Johnson"
-            className=" w-4/5 h-4/5 md:w-full md:h-full md:mr-2 object-cover"
+            className=" w-3/5 h-3/5 mb-2 lg:mb-0 lg:w-full lg:h-full md:mr-16 object-cover"
           />
         </div>
 
-        <div className="w-full sm:w-1/2 flex flex-col items-center sm:items-start">
+        <div className=" max-w-md flex flex-col items-center sm:items-start">
           <span className="text-xl sm:text-center mb-2">Hello there, I'm </span>
           <p className="font-bold text-4xl mb-4 ">Ryan Johnson</p>
           <p className="text-lg leading-relaxedfont-semibold">
