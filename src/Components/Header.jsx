@@ -8,14 +8,14 @@ const Header = () => {
     <div className="container mx-auto px-4" data-aos="fade-up"  data-aos-duration="1000">
 
       <div className="flex flex-wrap items-center justify-center">
-        <div className=" mb-8 sm:mb-0 sm:mr-12  overflow-hidden ">
+        <div className="flex justify-center mb-0 md:mb-8 overflow-hidden ">
           <img
             src={MainIllustration}
             alt="Ryan Johnson"
-            className=" w-full h-full object-cover"
+            className=" w-4/5 h-4/5 md:w-full md:h-full object-cover"
           />
-          
         </div>
+
         <div className="w-full sm:w-1/2 flex flex-col items-center sm:items-start">
           <span className="text-xl sm:text-center mb-2">Hello there, I'm </span>
           <p className="font-bold text-4xl mb-4 ">Ryan Johnson</p>

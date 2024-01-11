@@ -1,6 +1,7 @@
 import React from 'react';
 import EmailIcon from '../assets/email.svg';
 import GithubIcon from '../assets/github.svg';
+import footer from '../assets/illustration/footerill.png';
 
  const contacts = [
    { name: 'Ryanmj.dev@gmail.com', icon: EmailIcon, link: 'mailto:Ryanmj.dev@gmail' },
@@ -9,25 +10,26 @@ import GithubIcon from '../assets/github.svg';
 
 const Contact = () => {
   return (
-    <section className=" text-white py-12 " >
+    <section className=" text-white pt-12 " >
     <div className="container w-2/3 lg:w-1/2 mx-auto px-4 " data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
       <h2 className="text-4xl font-bold mb-10 text-center">
             Let's Connect
-        </h2>
+        </h2>  
 
-        <div className='flex items-center justify-center gap-4'>
+
+        <div className='flex flex-col lg:flex-row items-center justify-center gap-4'>
         {contacts.map((contact, index) => (
           <div className='flex ' key={index}>
              <img src={contact.icon} alt={contact.name} className="h-6 w-6 mr-2" />
              <a href={contact.link}>{contact.name}</a>
               {/* Display a vertical line between each contact except last element */}
-             {contacts.length - 1 !== index && <div className="border-l border-gray-400 h-6 mx-6" />} 
+             {contacts.length - 1 !== index && <div className="hidden lg:block border-l border-gray-400 h-6 ml-4" />} 
           </div>
           ))}
-          </div>  
-        
-             
+          </div>               
       </div>
+      <img src={footer} alt="footer" className="w-full" />
+    
     </section>
   );
 };
