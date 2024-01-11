@@ -31,14 +31,14 @@ const projects = [
 const Projects = () => {
   return (
     <section id="projects" className="py-24 text-center">
-      <div className="container mx-auto px-4" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
+      <div className="container mx-auto max-w-7xl px-4 lg:px-12" data-aos="fade-up" data-aos-once="false" data-aos-duration="1000">
         <h2 className="text-4xl font-bold mb-10 text-center">Projects</h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 place-items-stretch justify-items-center ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-6 place-items-stretch justify-items-center">
           {projects.map((project, index) => (
             <div
               key={index}
               className="border-2 border-accent border-card-blue gradient-blue p-4 rounded-lg shadow-lg
-                max-w-sm w-full min-w-0 md:min-w-[300px] xl:min-w-[320px] h-[100%] glow transform transition-transform duration-500"
+                max-w-md lg:max-w-lg xl:max-w-sm w-full h-auto glow transform transition-transform duration-500"
             >
               <img
                 src={project.image}
