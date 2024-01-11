@@ -1,10 +1,9 @@
 import React from 'react';
 import MainIllustration from '../assets/illustration/mainill.png';
-
 const Header = () => {
   return (
-    <section id="about" className="py-12 bg-fixed bg-center bg-cover h-screen flex justify-center items-center" >
-   
+
+    <section id="header" className="py-12 bg-fixed bg-center bg-cover h-screen flex justify-center items-center" >
     <div className="container mx-auto px-4" data-aos="fade-up"  data-aos-duration="1000">
 
       <div className="flex flex-wrap items-center justify-center">
@@ -32,6 +31,7 @@ const Header = () => {
 
 
   </section>
+
   );
 };
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import EmailIcon from '../assets/email.svg';
-import GithubIcon from '../assets/github.svg';
+import EmailIcon from '../assets/contact/email.png';
+import GithubIcon from '../assets/contact/computer.png';
 import footer from '../assets/illustration/footerill.png';
 
  const contacts = [

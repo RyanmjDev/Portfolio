@@ -1,17 +1,17 @@
 import React from 'react';
 
-import htmlIcon from '../assets/html5.svg';
-import cssIcon from '../assets/css.svg';
-import jsIcon from '../assets/js.svg';
-import reactIcon from '../assets/react.svg'
-import tailwindIcon from '../assets/tailwind.svg';
-import nodeJSIcon from '../assets/node-js.svg';
-import mongoIcon from '../assets/mongodb-icon.svg';
-import expressIcon from '../assets/expressjs-icon.svg';
-import bootstrapIcon from '../assets/bootstrap.svg';
-import responsiveIcon from '../assets/responsive.svg';
-import githubIcon from '../assets/github.svg';
-import typescriptIcon from '../assets/typescript.svg';
+import htmlIcon from '../assets/skills/html.png';
+import cssIcon from '../assets/skills/css.png';
+import jsIcon from '../assets/skills/javascript.png';
+import reactIcon from '../assets/skills/react.png'
+import tailwindIcon from '../assets/skills/tailwind.png';
+import nodeJSIcon from '../assets/skills/node.png';
+import mongoIcon from '../assets/skills/mongo.png';
+import expressIcon from '../assets/skills/express.png';
+import bootstrapIcon from '../assets/skills/bootstrap.png';
+import responsiveIcon from '../assets/skills/responsive.png';
+import githubIcon from '../assets/skills/github.png';
+import typescriptIcon from '../assets/skills/typescript.png';
 
 const skills = [
   { name: 'HTML', icon: htmlIcon },

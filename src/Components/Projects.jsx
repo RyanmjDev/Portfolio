@@ -1,7 +1,7 @@
 import React from 'react';
-import tasklister from '../assets/Projects/tasklister.png';
-import barker from '../assets/Projects/barker.png';
-import kaiwakun from '../assets/Projects/kaiwakun.png';
+import tasklister from '../assets/projects/tasklister.png';
+import barker from '../assets/projects/barker.png';
+import kaiwakun from '../assets/projects/kaiwakun.png';
 import Divider from './Divider';
 
 
