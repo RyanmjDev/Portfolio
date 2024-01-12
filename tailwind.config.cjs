@@ -8,6 +8,7 @@ module.exports = {
           'accent-blue': '#17376f',
           'card-blue': '#3a5891',
           'steel-blue': '#c7dbff',
+           'divider-blue': '#274268',
           
         },
         fontFamily: {

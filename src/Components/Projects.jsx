@@ -2,21 +2,20 @@ import React from 'react';
 import tasklister from '../assets/Projects/tasklister.png';
 import barker from '../assets/Projects/barker.png';
 import kaiwakun from '../assets/Projects/kaiwakun.png';
-import Divider from './Divider';
 
 
 const projects = [
   {
     title: 'Barker',
     image: barker,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ut quam repudiandae dolorum dolorem harum provident qui fuga porro atque tempore incidunt accusamus earum culpa maxime? Sunt veniam accusantium dignissimos!',
+    description: 'Barker is a social media platform inspired by Twitter, offering a space for users to share short messages, or "barks," engage with others, and stay connected in a dynamic, user-friendly online community.',
     demo: 'https://google.com/',
     repo: 'https://github.com/',
   },
   {
     title: 'Kaiwakun',
     image: kaiwakun,
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ut quam repudiandae dolorum dolorem harum provident qui fuga porro atque tempore incidunt accusamus earum culpa maxime? Sunt veniam accusantium dignissimos!',
+    description: 'KaiwaKun is an interactive app for learning Japanese through conversation, blending AI technology with user-friendly design to make language mastery engaging and accessible.',
     demo: 'https://google.com/',
     repo: 'https://github.com/',
   },
@@ -25,7 +24,7 @@ const projects = [
     image: tasklister,
     demo: 'https://google.com/',
     repo: 'https://github.com/RyanmjDev/tasklister', 
-    description: 'This application is a task management system built using the MERN stack. The app utilizes Tailwind CSS for styling and Axios for making HTTP requests to the RESTful API built with Node.js and Express.js on the server side.',
+    description: 'A convient and responsive task manager built with the MERN stack, allowing users register, login to create, edit, and delete tasks, as well as mark them as complete.',
   },
 ];
 const Projects = () => {
@@ -37,7 +36,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="border-2 border-accent border-card-blue gradient-blue p-4 rounded-lg shadow-lg
+              className="flex flex-col justify-between border-2 border-accent border-card-blue gradient-blue p-4 rounded-lg shadow-lg
                 max-w-md lg:max-w-lg xl:max-w-sm w-full h-auto glow transform transition-transform duration-500"
             >
               <img
@@ -47,27 +46,32 @@ const Projects = () => {
               />
               <h3 className="text-xl font-bold mb-2">{project.title}</h3>
               <p className="mb-2 text-left">{project.description}</p>
-              <Divider />
 
-              <div className="flex justify-between gap-2">
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-accent border border-steel-blue border-accent rounded-full w-32 py-2"
-                >
-                  Demo
-                </a>
+   
 
-                <a
-                  href={project.repo}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-accent border border-steel-blue border-accent rounded-full w-32 py-2"
-                >
-                  Repository
-                </a>
-              </div>
+                  <div className="flex justify-between items-end gap-2 border-t border-t-divider-blue  pt-4">
+              
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-accent border border-steel-blue border-accent rounded-full w-32 py-2"
+                    >
+                      Demo
+                    </a>
+
+                    <a
+                      href={project.repo}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-accent border border-steel-blue border-accent rounded-full w-32 py-2"
+                    >
+                      Repository
+                    </a>
+                  </div>
+        
+
+
             </div>
           ))}
         </div>
